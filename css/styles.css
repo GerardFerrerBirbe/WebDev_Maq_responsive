@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #24e8ff;
+    --color2: #fa5c59;
+}
+
+.container {
+    width: 100%;
+    min-width: 500px;
+    margin: auto;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Font */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+font1 {
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* Colors */
+
+.bColor1 {
+    background-color: var(--color1);
+}
+
+.bColorWhite {
+    background-color: #fff;
+}
+
+.bColor2 {
+    background-color: var(--color2);
+}
+
+.bColorBlack {
+    background-color: #000;
+}
+
+.fontColor1 {
+    color: var(--color2);
+}
+
+.fontColor2 {
+    color: var(--color1);
+}
+
+/* Images */
+
+.mainImage {
+    background-image: url("../img/pexels-photo-103123.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+    height: 56vw;
+}
+
+.image1 {
+    background-image: url("../img/mujer-maleta.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url("../img/mujer-mar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.teamImage1 {
+    background-image: url("../img/team1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+.teamImage2 {
+    background-image: url("../img/team2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+.teamImage3 {
+    background-image: url("../img/team3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+.teamImage4 {
+    background-image: url("../img/team4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    filter: grayscale(100%);
+}
+
+/* Transitions */
+
+.main-menu li, .dropdown-menu li {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.main-menu li:hover, .dropdown-menu li:hover {
+    background-color: var(--color1);
+}
+
+.teamImage1:hover,
+.teamImage2:hover,
+.teamImage3:hover,
+.teamImage4:hover {
+    filter: grayscale(0%);
+}
+
+.btnSearch, .btnSocial {
+    width: 2em;
+    height: 2em;
+    transition: 0.1s ease-in-out;
+}
+
+.btnSearch:hover,
+.btnSocial:hover {
+    width: 2.2em;
+    height: 2.2em;
+}
+
+.iconSocial:hover {
+    font-size: 1.2em;
+}
+
+
+
+/* Responsive menu */
+
+.icon-ham {
+    display: none;
+}
+
+@media (max-width: 960px) {
+    .icon-ham {
+        display: block;
+    }
+
+    .main-menu {
+        display: none;
+    }
+}
+
+nav {
+    position: relative;
+}
+
+.dropdown-menu {
+    height: 0;
+    margin-top: 270px;
+    overflow: hidden;
+    text-align: center;
+    transition: height 0.3s;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.icon-ham, .icon-close {
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+}
+
+.icon-close {
+    display: none;
+}
+
+#menu:target .dropdown-menu {
+    height: auto;
+}
+
+#menu:target .icon-ham {
+    display: none;
+}
+
+#menu:target .icon-close {
+    display: block;
+}
+
+#closeMenu:target .dropdown-menu {
+    height: 0;
+}
+
+#closeMenu:target .icon-ham {
+    display: block;
+}
+
+#closeMenu:target .icon-close {
+    display: none;
+}
+
+/* Responsive */
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.teamImages, .rowTeamImages {    
+    display: flex;
+}
+
+.desc {
+    width: 50%;
+    height: auto;
+    min-height: 28vw;
+}
+
+.img {
+    width: 50%;
+    height: auto;
+    min-height: 28vw;
+}
+
+.teamImg {
+    width: 150px;
+    height: 200px;
+}
+
+@media (max-width: 960px) {
+    .articles {
+        flex-wrap: wrap;
+    }
+    
+    article {
+        flex: 40%;
+    }   
+}
+
+@media (max-width: 720px) {
+    .articles {
+        flex-wrap: wrap;
+    }
+    
+    article {
+        flex: 60%;
+    }    
+
+    .images {
+        flex-direction: column;
+    } 
+
+    .desc {
+        width: 100%;
+        height: auto;
+    }
+
+    .img {
+        width: 100%;
+        height: 56vw;
+    }
+}
+
+@media (max-width: 570px) {
+    .teamImages {
+        flex-direction: column;
+    }
+}
+
+
+
+
+

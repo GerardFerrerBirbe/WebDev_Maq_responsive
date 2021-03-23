@@ -1,0 +1,410 @@
+/* Configuration */
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.fGrow1 {
+    flex-grow: 1;
+}
+
+.fGrow2 {
+    flex-grow: 2;
+}
+
+.fGrow3 {
+    flex-grow: 3;
+}
+
+.fGrow4 {
+    flex-grow: 4;
+}
+
+.fGrow5 {
+    flex-grow: 5;
+}
+
+.fGrow6 {
+    flex-grow: 6;
+}
+
+.fGrow7 {
+    flex-grow: 7;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex2 {
+    flex: 2;
+}
+
+.flex3 {
+    flex: 3;
+}
+
+.flex4 {
+    flex: 4;
+}
+
+.flex5 {
+    flex: 5;
+}
+
+.flex6 {
+    flex: 6;
+}
+
+.flex7 {
+    flex: 7;
+}
+
+.flexWrap {
+    flex-wrap: wrap;
+}
+
+.flex50p {
+    flex: 50%;
+}
+
+.flex33p {
+    flex: 33%;
+}
+
+/* Horizontal alignment */
+
+.hFlexEnd {
+    justify-content: flex-end;
+}
+.hFlexStart {
+    justify-content: flex-start;
+}
+.hCenter {
+    justify-content: center;
+}
+.hSpaceAround {
+    justify-content: space-around;
+}
+
+.hSpaceBetween {
+    justify-content: space-between;
+}
+
+/* Vertical Alignment */
+
+.vFlexStart {
+    align-items: flex-start;
+}
+
+.vFlexEnd {
+    align-items: flex-end;
+}
+
+.vCenter {
+    align-items: center;
+}
+
+/* Text */
+
+.txtCenter {
+    text-align: center;
+}
+
+.txtLeft {
+    text-align: left;
+}
+
+.txtRight {
+    text-align: right;
+}
+
+.txtJustify {
+    text-align: justify;
+}
+
+.txtWhite {
+    color: white;
+}
+
+.txtGrey {
+    color: darkgray;
+}
+
+.txtBlack {
+    color:#000;
+}
+
+.txtVerCenter {
+    vertical-align:middle;
+}
+
+.lineHeight15 {
+    line-height: 1.5em;
+}
+
+.txtNoDecor {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* font */
+
+.bold700 {
+    font-weight: 700;
+}
+
+.light200 {
+    font-weight: 200;
+}
+
+.reg400 {
+    font-weight: 600;
+}
+
+.fontSmall {
+    font-size: small;
+}
+
+.fontXSmall {
+    font-size: x-small;
+}
+
+.fontLarge {
+    font-size:large;
+}
+
+.fontXLarge {
+    font-size:xx-large;
+}
+
+/* Decoration */
+.style-none {
+    list-style-type: none;
+}
+
+/* Margins */
+
+.margin05 {
+    margin: 0.5em;
+}
+
+.margin1 {
+    margin: 1em;
+}
+
+.margin2 {
+    margin: 2em;
+}
+
+.marginHor05vw {
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+.marginHor1vw {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.marginHor1 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.marginVer05 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.marginVer1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.marginVer2 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.marginVer1vw {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.marginBottom05{
+    margin-bottom: 0.5em;
+}
+
+.marginBottom1 {
+    margin-bottom: 1em;
+}
+
+.marginBottom2 {
+    margin-bottom: 2em;
+}
+
+.marginBottom5 {
+    margin-bottom: 5em;
+}
+
+.marginTop1 {
+    margin-Top: 1em;
+}
+
+.marginTop2 {
+    margin-Top: 2em;
+}
+
+.marginTop5 {
+    margin-Top: 5em;
+}
+
+.marginRight1 {
+    margin-right: 1em;
+}
+
+/* Paddings */
+
+padding1 {
+    padding: 1em;
+}
+
+padding3 {
+    padding: 3em;
+}
+
+.paddingHor1 {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.paddingHor2 {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.paddingHor4vw {    
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.paddingVer05 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.paddingVer1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.paddingVer2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.paddingLeft1 {
+    padding-left: 1em;
+}
+
+/* Borders */
+
+.borderRadius4 {
+    border-radius: 4px;
+}
+
+.borderRadius20 {
+    border-radius: 20px;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.borderRadius4Right {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.borderRadius4Left {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.no-border {
+    border: none;
+}
+
+.borderBottom {
+    border: none;
+    border-bottom: solid 1px grey;
+}
+
+.border1 {
+    border-width: 1px;
+}
+
+.borderWhite {
+    border-color: #fff;
+}
+
+/* Images */
+
+.imgSizeLarge {
+    width: 14em;
+    height: auto;
+}
+
+.imgSizeMedium {
+    width: 5em;
+    height: auto;
+}
+
+.imgSizeSmall {
+    width: 2em;
+    height: auto;
+}
+
+.imgSizeXS {
+    width: 1em;
+    height: auto;
+}
+
+/* Height */
+
+
+.height2em {
+    height: 2em;
+}
+
+.height30 {
+    height: 30px;
+}
+
+.height60 {
+    height: 60px;
+}
+
+.height80 {
+    height: 80px;
+}
+
+/* Width */
+
+.width2em {
+    width: 2em;
+}
+
+.width25em {
+    width: 25em;
+}
+
+.width100 {
+    width: 100%;
+}
